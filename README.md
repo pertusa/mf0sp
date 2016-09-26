@@ -1,6 +1,6 @@
 # Multiple fundamental frequency estimation system
 
-This is method described in:
+This is the method described in:
 
 ```
 A. Pertusa and J.M. Iñesta, "Efficient methods for joint estimation of
@@ -19,7 +19,7 @@ To compile the source code in Linux or MacOS, type from the command line:
 make
 ```
 
-The software requires libsndfile and fftw3 libraries. Both
+The software requires **libsndfile** and **fftw3** libraries. Both
 are standard in Linux distributions and they can be obtained from the
 corresponding package installer. In MacOS, they can be downloaded from:
 
@@ -38,7 +38,7 @@ changed.
 
 ## Usage
 
-The basic syntax once compiled is:
+Once compiled, the basic syntax is:
 
 ```
 ./alg input.wav -o output.mid
